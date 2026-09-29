@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Un jour je serai le meilleur dresseur</title>
+    <link rel="icon" type="image/x-icon" href="./src/assets/favicon.ico" />
+    <link rel="stylesheet" href="./src/assets/css/normalize.css" />
+    <link rel="stylesheet" href="./src/assets/css/style.css" />
+    <script src="./js/script_TP23.js" defer type="module"></script>
+  </head>
+  <body>
+    <h1>Mettre le son quand on clique sur la page</h1>
+    <h2>Sélectionner la génération de Pokémon :</h2>
+    <section id="filtre">
+      <div class="select">
+        <select id ="generation-select">
+          <option value="1">Génération 1</option>
+          <option value="2">Génération 2</option>
+          <option value="3">Génération 3</option>
+          <option value="4">Génération 4</option>
+          <option value="5">Génération 5</option>
+          <option value="6">Génération 6</option>
+          <option value="7">Génération 7</option>
+          <option value="8">Génération 8</option>
+        </select>
+      </div>
+    </section>
+
+    <h2>Sélectionner une caractéristique :</h2>
+    <section id="tri">
+      <div class="select">
+        <select id ="caracteristique-select">
+          <option value="1">Nom</option>
+          <option value="2">Points de vie</option>
+          <option value="3">Attaque</option>
+          <option value="4">Type</option>
+          <option value="5">Défense</option>
+          <option value="6">Attaque spéciale</option>
+          <option value="7">Vitesse </option>
+        </select>
+      </div>
+    </section>
+
+    <div id="types-buttons">
+      <button class="type-button">
+        <p>Normal</p>
+      </button>
+      <button class="type-button">
+        <p>Feu</p>
+      </button>
+      <button class="type-button">
+        <p>Eau</p>
+      </button>
+      <button class="type-button">
+        <p>Électrique</p> 
+      </button>
+      <button class="type-button">
+        <p>Plante</p>
+      </button>
+      <button class="type-button">
+        <p>Glace</p>
+      </button>
+      <button class="type-button">
+        <p>Combat</p>
+      </button>
+      <button class="type-button">
+        <p>Poison</p>
+      </button>
+      <button class="type-button">
+        <p>Sol</p>
+      </button> 
+      <button class="type-button">
+        <p>Vol</p>
+      </button>
+      <button class="type-button">
+        <p>Psy</p>
+      </button>
+      <button class="type-button">
+        <p>Insecte</p>  
+      </button>
+      <button class="type-button">
+        <p>Roche</p>
+      </button>
+      <button class="type-button">  
+        <p>Spectre</p>    
+      </button>
+      <button class="type-button">
+        <p>Dragon</p>
+      </button>
+      <button class="type-button">
+        <p>Ténèbres</p>
+      </button>
+      <button class="type-button">
+        <p>Acier</p>
+      </button>
+      <button class="type-button">
+        <p>Fée</p>
+      </button>
+  </div>
+    <main>
+      
+    </main>
+  </body>
+  <audio id="background-music" loop autoplay>
+  <source src="./data/generique.wav" type="audio/wav" />
+      Votre navigateur ne supporte pas la lecture audio.
+  </audio>
+</html>
